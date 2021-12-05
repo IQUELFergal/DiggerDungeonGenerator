@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 120e29c0d1c46c746bcccf35010d41fb, type: 3}
+  m_Name: Test DungeonData
+  m_EditorClassIdentifier: 
+  numberOfDiggers: 2
+  minIterations: 6
+  maxIterations: 10
+  groundTile: {fileID: 11400000, guid: 400ab05277542b84fb544787ec2f8b27, type: 2}
+  voidTile: {fileID: 11400000, guid: 67ff79ab2adc5564199cdd3c4f87f035, type: 2}
+  wallTile: {fileID: 11400000, guid: fb1125febbe2d0847abcc3b7e7ce51c5, type: 2}
+  wallOverlayTile: {fileID: 0}
+  roomSize: {x: 17, y: 17}
+  defaultRooms:
+    minLayout: 0
+    maxLayout: 7
+    roomTexture: {fileID: 2800000, guid: b1c8c39889d02e649a5f6e556e36aefa, type: 3}
+  spawnRooms:
+    minLayout: 0
+    maxLayout: 1
+    roomTexture: {fileID: 2800000, guid: 42029c41de5db95499a20907b357c4bc, type: 3}
+  bossRooms:
+    minLayout: 0
+    maxLayout: 1
+    roomTexture: {fileID: 2800000, guid: 3015c9aeceabdea47adfb9803abbb035, type: 3}
+  itemRooms:
+    minLayout: 0
+    maxLayout: 1
+    roomTexture: {fileID: 2800000, guid: a85edb27cd8f1524a80a5ef4214b02d9, type: 3}
